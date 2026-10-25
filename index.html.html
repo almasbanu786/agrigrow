@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgriGrow | Grow Sustainably</title>
+<style>
+:root{--green:#236b3b;--lime:#b9df8a;--cream:#f7f8ef;--ink:#183324;--muted:#526457}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{background:#fff;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;gap:18px;position:sticky;top:0;box-shadow:0 2px 12px #18332412}
+.logo{font-size:1.5rem;font-weight:800;color:var(--green)}.logo span{color:#8bbd58}
+nav a{color:var(--ink);text-decoration:none;margin-left:20px;font-weight:600;font-size:.95rem}
+.hero{padding:76px 7%;background:linear-gradient(120deg,#e6f2d8,#f7f8ef);display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:35px}
+.tag{display:inline-block;background:#d4e9bd;color:var(--green);padding:6px 12px;border-radius:30px;font-weight:bold;font-size:.85rem}
+h1{font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.08;margin:18px 0;color:#17492a}h2{line-height:1.2;color:#17492a}p{color:var(--muted)}
+.btn{display:inline-block;background:var(--green);color:white;text-decoration:none;padding:12px 20px;border-radius:8px;font-weight:bold;margin:8px 8px 0 0}.btn.alt{background:white;color:var(--green);border:1px solid #c9ddc0}
+.illustration{background:#fff;border-radius:24px;padding:26px;text-align:center;box-shadow:0 15px 40px #234b2b15}.plant{font-size:7rem;line-height:1.3}.statrow{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.stat{background:#edf5e6;padding:10px 13px;border-radius:10px;font-size:.9rem;font-weight:bold}
+section{padding:58px 7%}.sectionhead{text-align:center;max-width:720px;margin:0 auto 28px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;padding:24px;border-radius:16px;box-shadow:0 5px 22px #1833240b}.icon{font-size:2rem}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{border-left:4px solid #9acb70;padding:10px 20px;background:#eef5e7;border-radius:0 12px 12px 0}
+.cta{background:#1f6035;color:white;text-align:center}.cta h2,.cta p{color:white}.cta p{max-width:700px;margin:12px auto 20px}.cta .btn{background:#d9efbf;color:#17492a}
+footer{padding:24px 7%;text-align:center;background:#143e25;color:#e9f3e4}footer p{color:#d6e5d3;margin:5px}
+@media(max-width:760px){header{align-items:flex-start;flex-direction:column}nav a{margin:0 12px 0 0}.hero{grid-template-columns:1fr;padding-top:48px}.cards,.steps{grid-template-columns:1fr}section{padding:42px 6%}}
+</style>
+</head>
+<body>
+<header><div class="logo">🌱 Agri<span>Grow</span></div><nav><a href="#about">About</a><a href="#solutions">Solutions</a><a href="#how">How it works</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero">
+<div><span class="tag">Sustainable agriculture, made simpler</span><h1>Grow better.<br>Waste less.</h1><p>AgriGrow aims to help farmers adopt sustainable practices, reduce post-harvest losses, and connect with potential buyers through one affordable digital platform.</p><a class="btn" href="#solutions">Explore our solution</a><a class="btn alt" href="#contact">Partner with us</a></div>
+<div class="illustration"><div class="plant">🌾🌱</div><h2>Better farming. Stronger connections.</h2><div class="statrow"><div class="stat">🌿 Sustainable practices</div><div class="stat">🤝 Buyer connections</div><div class="stat">♻️ Less waste</div></div></div>
+</section>
+<section id="about"><div class="sectionhead"><h2>Why AgriGrow?</h2><p>Farmers and food businesses need practical ways to farm sustainably, protect produce after harvest, and build dependable market connections.</p></div><div class="cards"><article class="card"><div class="icon">🌱</div><h3>Practical guidance</h3><p>Discover accessible tips and information that support more sustainable farming decisions.</p></article><article class="card"><div class="icon">♻️</div><h3>Reduce post-harvest waste</h3><p>Learn handling and storage practices that can help preserve produce and reduce avoidable losses.</p></article><article class="card"><div class="icon">🤝</div><h3>Connect with buyers</h3><p>Help farmers and retailers find opportunities to build more reliable produce relationships.</p></article></div></section>
+<section id="solutions"><div class="sectionhead"><h2>One platform, shared benefits</h2><p>AgriGrow is designed for the people who grow, source, and sell food.</p></div><div class="cards"><article class="card"><h3>For farmers</h3><p>Explore sustainable farming guidance, post-harvest tips, and potential buyer connections.</p></article><article class="card"><h3>For agri-businesses</h3><p>Discover opportunities to build relationships with growers and support sustainable supply chains.</p></article><article class="card"><h3>For food retailers</h3><p>Connect with farmers and explore ways to source fresh produce more efficiently.</p></article></div></section>
+<section id="how"><div class="sectionhead"><h2>How it works</h2><p>A simple path toward more connected, sustainable agriculture.</p></div><div class="steps"><div class="step"><h3>01. Learn</h3><p>Access practical information about sustainable farming and post-harvest handling.</p></div><div class="step"><h3>02. Connect</h3><p>Build connections between farmers, agri-businesses, and food retailers.</p></div><div class="step"><h3>03. Improve</h3><p>Use feedback and shared learning to strengthen farming and sourcing practices.</p></div></div></section>
+<section class="cta" id="contact"><h2>Let's grow a greener future together.</h2><p>Are you a farmer, agri-business, retailer, or potential partner? Connect with AgriGrow and help shape a more sustainable food system.</p><a class="btn" href="mailto:agrigrow@example.com?subject=AgriGrow%20Enquiry">Contact AgriGrow</a><p style="font-size:.85rem">Demo contact email — replace with your real email before publishing.</p></section>
+</main><footer><strong>🌱 AgriGrow</strong><p>Grow sustainably. Connect locally. Waste less.</p><p>Student venture concept • Update contact details before sharing publicly</p></footer>
+</body></html>
